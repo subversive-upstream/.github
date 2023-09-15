@@ -9,6 +9,21 @@ This organization tracks repositories that are considered upstream of the [Subve
   - Open an issue in the repository in the [Subversive Stack](https://github.com/subversive-stack).
   - Open an issue in the upstream repository.
 
+### Related
+
+#### [Subversive Stack](https://github.com/subversive-stack)
+
+The opinionated blockchain stack not pumping any token/coin.
+
+Contains repositories that are a fork of a repository in [Subversive Upstream](https://github.com/subversive-crates).
+The content of this organization reflect the opinionated nature of the Subversive Stack.
+
+#### [Subversive Crates](https://github.com/subversive-crates)
+
+Contains repositories that are a fork of a repository in [Subversive Upstream](https://github.com/subversive-crates).
+The content of this organization reflect the opinionated nature of the Subversive Stack.
+Specifically, repositories will only appear here when they are used in the [Subversive Stack](https://github.com/subversive-stack).
+
 ### Resources
 
 Until the [Subversive Stack](https://github.com/subversive-stack) deviates from the upstream, the upstream project resources are best.
