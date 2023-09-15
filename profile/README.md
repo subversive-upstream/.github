@@ -1,13 +1,19 @@
 ## Subversive: Upstream 👋
 
-This organization tracks repositories that are considered upstream of the [Subversive Stack](https://github.com/subversive-stack) - a blockchain stack that is not pumping any token/coin.
+This organization tracks repositories that are considered upstream of the [Subversive Stack](https://github.com/subversive-stack) - a blockchain stack that will never pump any token/coin.
 
-- Please don't fork these repositories. Rather:
-  - Fork the repository in the [Subversive Stack](https://github.com/subversive-stack).
-  - Fork the upstream repository.
-- Please don't open pull requests against any of these repositories.  It is likely no one will ever see them. Rather:
-  - Open an issue in the repository in the [Subversive Stack](https://github.com/subversive-stack).
-  - Open an issue in the upstream repository.
+- Please don't fork these repositories. Rather,
+  - fork the repository in the [Subversive Stack](https://github.com/subversive-stack), or
+  - fork the upstream repository.
+- Please don't open pull requests against any of these repositories.  It is likely no one will ever see them. Rather,
+  - open an issue in the repository in the [Subversive Stack](https://github.com/subversive-stack), or
+  - open an issue in the upstream repository.
+
+With that said, we know of users who prefer access to Substrate, etc. as separate repositories. 
+You can find the following parts of the Polkadot-SDK in these repositories:
+
+- Substrate: [polkadot-sdk-substrate](https://github.com/subversive-upstream/polkadot-sdk-substrate)
+- Cumulus: [polkadot-sdk-cumulus](https://github.com/subversive-upstream/polkadot-sdk-cumulus)
 
 ### Related
 
@@ -23,6 +29,7 @@ The content of this organization reflect the opinionated nature of the Subversiv
 Contains repositories that are a fork of a repository in [Subversive Upstream](https://github.com/subversive-crates).
 The content of this organization reflect the opinionated nature of the Subversive Stack.
 Specifically, repositories will only appear here when they are used in the [Subversive Stack](https://github.com/subversive-stack).
+It is not yet clear if these crates will be distributed via crates.io or just GitHub repositories.
 
 ### Resources
 
