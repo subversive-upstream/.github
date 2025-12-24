@@ -1,38 +1,30 @@
-# Subversive Stack: Not DeFi. Not Web3. 👋
+# Subversive Upstream: Not DeFi. Not Web3.
 
-The Subversive Stack is an opinionated framework for developing **secure distributed ledgers**, focused on empowering end-users. We adopt or build tools that prioritize privacy, security, and real-world utility—without promoting token or coin speculation. Our mission: Place users front and center through principled open-source development.
+This organization tracks repositories considered upstream of the [Subversive Stack](https://github.com/subversive-stack)—a secure, user-centric **Secure Distributed Ledger - SDL - (pronounced: Saddle)** stack without promoting any token or coin.
 
-## Key Principles
-- **User-Centric Design**: Tools for developers and users who value control and verifiable security.
-- **No Speculative Incentives**: We maintain designs free from economic models that encourage value speculation; emphasis remains on sustainable infrastructure.
-- **Phased Evolution**: Beginning with permissioned environments (single legal entity); permissionless features (e.g., commonware-consensus) remain out of scope until secure configurations are mathematically proven, and implemented.
-- **Not DeFi. Not Web3.**: Our approach centers on secure distributed ledgers, distinct from broader ecosystems reliant on unproven assumptions of security and safety.
+## Guidelines
 
-## Current Focus: Pivot to Commonware.xyz
-We have shifted from traditional blockchain primitives—often based on unproven security assumptions, including lack of formal proofs for minimal thresholds and token-value exceeding minimum thresholds — to **secure distributed ledger** technologies initally via a subset of the [commonware.xyz stack](https://commonware.xyz). This enables verified, permissioned networks while addressing limitations in assumed-secure systems. Key components include:
-
-- Core runtime and primitives for permissioned ledgers.
-- Tools for privacy-preserving applications and user-controlled data.
-
-Repositories in this org are forks or adaptations from upstream sources, customized for the Subversive Stack's opinionated approach.
-
-### Guidance for Users
-- **Don't Fork Here**: Fork from the original upstream repos to avoid fragmentation.
-- **Issues & PRs**: Open them in upstream repos. We monitor for alignment with our principles but have no full-time team—contributions are community-driven.
+- **Forking**: Do not fork repositories here. Instead:
+  - Fork from the corresponding repository in [Subversive Stack](https://github.com/subversive-stack).
+  - Or fork directly from the original upstream source.
+- **Pull Requests**: Do not submit PRs to repositories in this organization—they may go unnoticed. Instead:
+  - Open an issue in the relevant [Subversive Stack](https://github.com/subversive-stack) repository.
+  - Submit issues or PRs to the original upstream project.
 
 ## Related Organizations
-- **[Subversive Upstream](https://github.com/subversive-upstream)**: Tracks unmodified upstream repos (e.g., commonware.xyz components) that feed into this stack.
-- **[Subversive Crates (TBC)](https://github.com/subversive-crates)**: Rust crates forked and adapted for Subversive use. Published via GitHub (crates.io distribution TBD).
+
+- **[Subversive Stack](https://github.com/subversive-stack)**: The opinionated, user-first blockchain stack for permissioned networks. Contains tailored forks of upstream repositories.
+- **[Subversive Crates (TBC)](https://github.com/subversive-crates)**: Focused forks of upstream crates, included only when actively integrated into Subversive Stack.
 
 ## Resources
-- **Documentation**: Start with [commonware.xyz docs](https://commonware.xyz/docs) for core concepts. Additional guides coming soon.
-- **Help Channels**: Use Stack Overflow for questions (tag with `subversive-stack`). No dedicated forum yet—leverage upstream communities.
-- **Why Join?**: Develop secure distributed ledgers that serve users through verified mechanisms, separate from speculative markets.
+
+Until Subversive Stack significantly diverges from upstream projects, rely on upstream documentation and communities for detailed guidance. There is no dedicated forum for Subversive-specific discussions yet—use StackOverflow with the tag `subversive-stack` for help, though monitoring is volunteer-based.
 
 ## Contribution Guidelines
-We operate as an old-school open-source project: Volunteer-driven, with strengths in community focus and limitations in resources. Submit issues/PRs that align with our emphasis on secure, non-speculative designs.
 
-## Changelog
+To influence or contribute to Subversive, start via issues in the [Gateway repository](https://github.com/subversive-stack/gateway). Remember: We're committed to speculation-free designs and user-centric innovation. This is volunteer-driven open source—expect the pace and community dynamics of classic OSS projects.
+
+## Change Log
+
 - **2023-09-15**: Initial release using Substrate (breaking out the upstream Polkadot-SDK monorepo).
-- **2025-12-24**: Pivoted terminology to "secure distributed ledgers"; added "Not DeFi. Not Web3." positioning; Pivoted to commonware.xyz stack; de-emphasized Substrate; note commonware-consensus as out-of-scope.
-- *(Add future changes here in YYYY-MM-DD format.)*
+- **2025-12-24**: Updated for consistency with Stack pivot to commonware.xyz; clarified guidelines and resources.
